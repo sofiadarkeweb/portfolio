@@ -3,7 +3,8 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" type="image/svg" href="media/heart.svg">
 		<link
 			href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,700;1,400;1,700&display=swap"
 			rel="stylesheet"
@@ -11,12 +12,24 @@
 		<title>Portfolio of Sofia Darke</title>
 	</head>
 	<body>
-        <header class = "header">
-           <p class="banner-text">SOFIA DARKE SOFIA DARKE SOFIA DARKE</p>
-            <p class="banner-text">SOFIA DARKE SOFIA DARKE SOFIA DARKE</p> 
+        <header class= "header">
+           <h1 class="banner-text">SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE 
+               SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARK</h1>
+            <h1 class="header-mobile">SOFIA DARKE</h1>
+            <button class= "hamburgerBtnMobile">    
+                <div class="bar1mobile"></div>
+                <div class="bar2mobile"></div>
+                <div class="bar3mobile"></div>
+            </button>
+            
         </header>
+        <div><img class = "heart" src = "media/heart.svg"></div>
+        <div><img class = "lines" src = "media/lines.svg"></div>
+        <div><img class = "rainbow" src = "media/rainbow.svg"></div>
 
 		<section class="grid-container">
+            
+            
 			<div class="box1">
 				<p>
 					Design focused front end developer based in Stockholm. Currently
@@ -24,9 +37,26 @@
 				</p>
 			</div>
 			<div class="box2">
-				<div class="bar1"></div>
-				<div class="bar2"></div>
-				<div class="bar3"></div>
+                <button class= "hamburgerBtn">
+                    
+				        <div class="bar1"></div>
+				        <div class="bar2"></div>
+                        <div class="bar3"></div>
+                     
+                </button>
+                <div id="myPopUpBlackBox" class="popUpBlack">
+					
+					<div class="popup-content-black">
+						<span class="close3" id="close3">&times;</span>
+                        <a class = "menu-links" href="https://github.com/sofiadarkeweb/"target="_blank">GITHUB</a>
+                        <a class = "menu-links" href="mailto: sofia.darke@hyperisland.se"target="_blank">EMAIL</a>
+                        <a class = "menu-links" href="https://www.linkedin.com/in/sofia-darke-1177932b/"target="_blank">LINKEDIN</a><br>
+							<h2>Hello! My name is Sofia Darke. I'm a front end developer student at Hyper Island in Stockholm, 
+                                graduating in March 2022. I've got a background in graphic design focusing on primarily visual identities. 
+                                This is a site where I will display my projects, experiment and general exploration with code.<br>
+                            </h2><br>
+                    </div>
+				</div>
 			</div>
 			<div class="box3">
 				<a
@@ -46,30 +76,38 @@
 			</div>
 			<div class="box5">
                 <button class="generator-btn">Who are you?</button>
-                <p class="answer"></p>
-                <p class="name1">?</p>
+                <p class="name1"></p>
                 <p class="name2"></p>
-                </div>
+                <p class="answer"></p>
+            </div>
 			<div class="box6-img">
                 
-				<button class="myBtn">
-					<span style="text-transform: uppercase">Project</span>| More info
-                </button>
+				<button class="myProjectBtn">
+					<span style="text-transform: uppercase">Project</span>| More info</button>
+                
                 <!-- <img src="media/draw.png" alt="Girl in a jacket" width = "100%"> -->
 				<!-- The Modal -->
-				<div id="myModal" class="modal">
+				<div id="myPopUp1" class="popUp1">
+                    
 					<!-- Modal content -->
-					<div class="modal-content">
-						<span class="close">&times;</span>
+					<div class="popup-content-1">
+						<span class="close1">&times;</span>
 						
-							<h1>DRAWING APP</h1> 
+							<h1>DRAWING APP</h1><br> 
 							<p>Desktop app using html, CSS and vanilla Javascript. Don't miss the
                             rainbow brush!<br>
                             <br>
-                            <a href="https://sofiadarkeweb.github.io/canvas-paint/">visit project
+                            <a href="https://sofiadarkeweb.github.io/canvas-paint/">visit project</a>
 						    </p>
                     </div>
-				</div>
+                </div>
+                <iframe id="drawCanvas"
+                title="Drawing app"
+                width="100%"
+                height="100%"
+                scrolling="no"
+                src="https://editor.p5js.org/sofiadarkeweb/embed/2jTXOLqUO">
+            </iframe>
 			</div>
 			<div class="box7">
 				<a
@@ -80,33 +118,41 @@
 				>
 			</div>
 			<div class="box8">
-                <button class="myBtn">
+                <button class="myProjectBtn2">
 					<span style="text-transform: uppercase">Project</span>| More info
                 </button>
-                <div id="myModal2" class="modal2">
+                <div id="myPopUp2" class="popUp2">
 					<!-- Modal content -->
-					<div class="modal-content">
-						<span class="close">&times;</span>
+					<div class="popup-content-2">
+						<span class="close2">&times;</span>
 						
-							<h1>DRAWING APP</h1> 
-							<p>Desktop app using html, CSS and vanilla Javascript. Don't miss the
-                            rainbow brush!<br>
+							<h1>PlantFeed</h1><br> 
+							<p>Habittracker app for when you should water, fertilize and re-plant your plants. 
+                                Html/CSS/Javascript. Project together with Cecilia Lobo and Adam Webb<br>
                             <br>
-                            <a href="https://sofiadarkeweb.github.io/canvas-paint/">visit project
+                            <a href="https://sofiadarkeweb.github.io/habit-tracker/">visit project</a>
 						    </p>
                     </div>
-				<!-- </div>
-				<css-doodle grid="5" class="doodle">
-					:doodle { @grid: 20 / 600px; grid-gap: 20px; } background: #26C6DA;
+				</div>
+				<!-- <css-doodle grid="5" overflow="hidden" class="doodle">
+					:doodle { @grid: 20 / 600px 600px; grid-gap: 20px; } background: #26C6DA;
 					transform: scale(@rand(.1, .9)) translate3d(@r(50px), @r(100px), 0);
 					background: hsla(@r(360), 85%, @r(70%, 90%), @r(.9)); border-radius:
 					@r(10px);
-				</css-doodle>
-			</div> -->
-            <div class="box9">9</div>
-            <div class="box9">9</div>
-		</section>
+				</css-doodle> -->
+			</div> 
+            <div class="box9"> 
+                <iframe id="square" width="100%"
+                height="100%"
+                scrolling="no" src="https://editor.p5js.org/sofiadarkeweb/embed/Aw3ERMPxu"></iframe>  
+            </div> 
+        </section>
+        
+        <footer class= "header">
+            <h1 class="banner-text">SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE 
+                SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARK</h1>
+        </footer>
 	</body>
 	<script src="app.js"></script>
-	<script src="https://unpkg.com/css-doodle@0.8.5/css-doodle.min.js"></script>
+	<!-- <script src="https://unpkg.com/css-doodle@0.8.5/css-doodle.min.js"></script> -->
 </html>
