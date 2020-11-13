@@ -397,6 +397,10 @@ footer {
 	overflow: hidden;
 }
 
+.footer-mobile {
+	display: none;
+}
+
 /* The Modal (background) */
 
 
@@ -412,9 +416,7 @@ footer {
 	display: none;
 }
 
-.footer-mobile {
-	display: none;
-}
+
 	
 
 
