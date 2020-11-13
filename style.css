@@ -71,7 +71,7 @@ body {
 	line-height: 10vh;
 	overflow: hidden;
 	font-size: 5vw;
-	animation: slide 60s linear infinite;
+	animation: slide 120s linear infinite;
 }
 
 @keyframes slide {
@@ -373,12 +373,6 @@ h2 {
 	grid-row: 5/7;
 }
 
-.doodle {
-	position: relative;
-	object-fit: contain;
-	background-size: contain;
-	
-}
 
 
 .box9 {
@@ -417,6 +411,12 @@ footer {
 .banner-text {
 	display: none;
 }
+
+.footer-mobile {
+	display: none;
+}
+	
+
 
 .grid-container {
 	display: block;
@@ -484,6 +484,11 @@ footer {
 #myPopUpBlackBox {
 	margin-right: 10px;
 } 
+.footer-mobile {
+	display: block;
+	margin: 10px;
+	font-size: 2.5rem;
+}
 
 }
 
