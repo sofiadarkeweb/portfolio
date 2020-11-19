@@ -35,7 +35,7 @@ body {
 .rainbow {
 	width: 9rem;
 	position: absolute;
-	margin-top: 1100px;
+	margin-top: 1000px;
 	margin-left: 80vw;
 	z-index: -1;
 	animation: pulse 2s infinite;
@@ -383,6 +383,17 @@ h2 {
 	background: pink;
 	grid-column: 6/8;
 	grid-row: 7/8;
+}
+
+.box10 {
+	position: relative;
+	background-color: black;
+	color: white;
+	grid-column: 7/9;
+	grid-row: 6/7;
+	font-weight: 700;
+	font-size: 1.1rem;
+	padding: 15px;
 }
 
 footer {
