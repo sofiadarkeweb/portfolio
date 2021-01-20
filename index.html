@@ -3,8 +3,12 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css" />
-        <link rel="icon" type="image/svg" href="media/heart.svg">
+		<meta
+			name="description"
+			content="Portfolio site for front-end developer Sofia Darke"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="icon" type="image/svg" href="media/heart.svg" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,700;1,400;1,700&display=swap"
 			rel="stylesheet"
@@ -12,25 +16,34 @@
 		<title>Portfolio of Sofia Darke</title>
 	</head>
 	<body>
-        <header class= "header">
-           <h1 class="banner-text">SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE 
-               SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE 
-               SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE</h1>
-            <h1 class="header-mobile">SOFIA DARKE</h1>
-            <button class= "hamburgerBtnMobile">    
-                <div class="bar1mobile"></div>
-                <div class="bar2mobile"></div>
-                <div class="bar3mobile"></div>
-            </button>
-            
-        </header>
-        <div><img class = "heart" src = "media/heart.svg"></div>
-        <div><img class = "lines" src = "media/lines.svg"></div>
-        <div><img class = "rainbow" src = "media/rainbow.svg"></div>
+		<header class="header">
+			<h1 class="banner-text">
+				SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE
+				SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE
+				SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE
+			</h1>
+			<h1 class="header-mobile">SOFIA DARKE</h1>
+			<button class="hamburgerBtnMobile">
+				<div class="bar1mobile"></div>
+				<div class="bar2mobile"></div>
+				<div class="bar3mobile"></div>
+			</button>
+		</header>
+		<div>
+			<img class="heart" src="media/heart.svg" alt="heart illustration" />
+		</div>
+		<div>
+			<img
+				class="lines"
+				src="media/lines.svg"
+				alt="squiggly lines illustration"
+			/>
+		</div>
+		<div>
+			<img class="rainbow" src="media/rainbow.svg" alt="rainbow illustration" />
+		</div>
 
 		<section class="grid-container">
-            
-            
 			<div class="box1">
 				<p>
 					Curious design focused web developer based in Stockholm. Currently
@@ -38,25 +51,41 @@
 				</p>
 			</div>
 			<div class="box2">
-                <button class= "hamburgerBtn">
-                    
-				        <div class="bar1"></div>
-				        <div class="bar2"></div>
-                        <div class="bar3"></div>
-                     
-                </button>
-                <div id="myPopUpBlackBox" class="popUpBlack">
-					
+				<button class="hamburgerBtn" aria-label="open">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</button>
+				<div id="myPopUpBlackBox" class="popUpBlack">
 					<div class="popup-content-black">
 						<span class="close3" id="close3">&times;</span>
-                        <a class = "menu-links" href="https://github.com/sofiadarkeweb/"target="_blank">GITHUB</a>
-                        <a class = "menu-links" href="mailto: sofia.darke@hyperisland.se"target="_blank">EMAIL</a>
-                        <a class = "menu-links" href="https://www.linkedin.com/in/sofia-darke-1177932b/"target="_blank">LINKEDIN</a><br>
-							<h2>Hello! My name is Sofia Darke. I'm a front-end developer student at Hyper Island in Stockholm, 
-                                graduating in March 2022. I've got a background in graphic design focusing on primarily visual identities and branding. 
-                                This is my site where I will display my projects, experiments and general exploration with code.<br>
-                            </h2><br>
-                    </div>
+						<a
+							class="menu-links"
+							href="https://github.com/sofiadarkeweb/"
+							target="_blank"
+							>GITHUB</a
+						>
+						<a
+							class="menu-links"
+							href="mailto: sofia.darke@hyperisland.se"
+							target="_blank"
+							>EMAIL</a
+						>
+						<a
+							class="menu-links"
+							href="https://www.linkedin.com/in/sofia-darke-1177932b/"
+							target="_blank"
+							>LINKEDIN</a
+						><br />
+						<h2>
+							Hello! My name is Sofia Darke. I'm a front-end developer student
+							at Hyper Island in Stockholm, graduating in March 2022. I've got a
+							background in graphic design focusing on primarily visual
+							identities and branding. This is my site where I will display my
+							projects, experiments and general exploration with code.<br />
+						</h2>
+						<br />
+					</div>
 				</div>
 			</div>
 			<div class="box3">
@@ -76,39 +105,45 @@
 				>
 			</div>
 			<div class="box5">
-                <button class="generator-btn">Who are you?</button>
-                <p class="name1"></p>
-                <p class="name2"></p>
-                <p class="answer"></p>
-            </div>
+				<button class="generator-btn">Who are you?</button>
+				<p class="name1"></p>
+				<p class="name2"></p>
+				<p class="answer"></p>
+			</div>
 			<div class="box6-img">
-                
 				<button class="myProjectBtn">
-					<span style="text-transform: uppercase">Project</span>| More info</button>
-                
-                <!-- <img src="media/draw.png" alt="Girl in a jacket" width = "100%"> -->
+					<span style="text-transform: uppercase">Project</span>| More info
+				</button>
+
+				<!-- <img src="media/draw.png" alt="Girl in a jacket" width = "100%"> -->
 				<!-- The Modal -->
 				<div id="myPopUp1" class="popUp1">
-                    
 					<!-- Modal content -->
 					<div class="popup-content-1">
 						<span class="close1">&times;</span>
-						
-							<h1>DRAWING APP</h1><br> 
-							<p>Desktop app using html, CSS and vanilla Javascript. Don't miss the
-                            rainbow brush!<br>
-                            <br>
-                            <a href="https://sofiadarkeweb.github.io/canvas-paint/">visit project</a>
-						    </p>
-                    </div>
-                </div>
-                <iframe id="drawCanvas"
-                title="Drawing app"
-                width="100%"
-                height="100%"
-                scrolling="no"
-                src="https://editor.p5js.org/sofiadarkeweb/embed/2jTXOLqUO">
-            </iframe>
+
+						<h1>DRAWING APP</h1>
+						<br />
+						<p>
+							Desktop app using html, CSS and vanilla Javascript. Don't miss the
+							rainbow brush!<br />
+							<br />
+							<a href="https://sofiadarkeweb.github.io/canvas-paint/"
+								>visit project</a
+							>
+						</p>
+					</div>
+				</div>
+				<iframe
+					id="drawCanvas"
+					title="Drawing app"
+					width="100%"
+					height="100%"
+					scrolling="no"
+					src="https://editor.p5js.org/sofiadarkeweb/embed/2jTXOLqUO"
+					alt="drawing app from p5js library"
+				>
+				</iframe>
 			</div>
 			<div class="box7">
 				<a
@@ -119,21 +154,26 @@
 				>
 			</div>
 			<div class="box8">
-                <button class="myProjectBtn2">
+				<button class="myProjectBtn2">
 					<span style="text-transform: uppercase">Project</span>| More info
-                </button>
-                <div id="myPopUp2" class="popUp2">
+				</button>
+				<div id="myPopUp2" class="popUp2">
 					<!-- Modal content -->
 					<div class="popup-content-2">
 						<span class="close2">&times;</span>
-						
-							<h1>PlantFeed</h1><br> 
-							<p>Habittracker app for when you should water, fertilize and re-plant your plants. 
-                                Html/CSS/Javascript. Project together with Cecilia Lobo and Adam Webb<br>
-                            <br>
-                            <a href="https://sofiadarkeweb.github.io/habit-tracker/">visit project</a>
-						    </p>
-                    </div>
+
+						<h1>PlantFeed</h1>
+						<br />
+						<p>
+							Habittracker app for when you should water, fertilize and re-plant
+							your plants. Html/CSS/Javascript. Project together with Cecilia
+							Lobo and Adam Webb<br />
+							<br />
+							<a href="https://sofiadarkeweb.github.io/habit-tracker/"
+								>visit project</a
+							>
+						</p>
+					</div>
 				</div>
 				<!-- <css-doodle grid="5" overflow="hidden" class="doodle">
 					:doodle { @grid: 20 / 600px 600px; grid-gap: 20px; } background: #26C6DA;
@@ -141,20 +181,31 @@
 					background: hsla(@r(360), 85%, @r(70%, 90%), @r(.9)); border-radius:
 					@r(10px);
 				</css-doodle> -->
-			</div> 
-            <div class="box9"> 
-                <iframe id="square" width="100%"
-                height="100%"
-                scrolling="no" src="https://editor.p5js.org/sofiadarkeweb/embed/Aw3ERMPxu"></iframe>  
-			</div> 
-			<div class="box10">TECH STACK<br><br>HTML | CSS | JavaScript | C+ | Figma<br><br>...and on my way learning React, JAMstack, TypeScript etc.</div>
-        </section>
-        
-        <footer class= "header">
-            <h1 class="banner-text">SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE 
-                SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARK</h1>
-            <h1 class="footer-mobile">BYE BYE</h1>
-        </footer>
+			</div>
+			<div class="box9">
+				<iframe
+					id="square"
+					title="rotating square"
+					width="100%"
+					height="100%"
+					scrolling="no"
+					src="https://editor.p5js.org/sofiadarkeweb/embed/Aw3ERMPxu"
+					alt="a rotating animated square in a box"
+				></iframe>
+			</div>
+			<div class="box10">
+				TECH STACK<br /><br />HTML | CSS | JavaScript | C+ | Figma<br /><br />...and
+				on my way learning React, JAMstack, TypeScript etc.
+			</div>
+		</section>
+
+		<footer class="header">
+			<h1 class="banner-text">
+				SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE SOFIA DARKE
+				SOFIA DARKE SOFIA DARKE SOFIA DARK
+			</h1>
+			<h1 class="footer-mobile">BYE BYE</h1>
+		</footer>
 	</body>
 	<script src="app.js"></script>
 	<!-- <script src="https://unpkg.com/css-doodle@0.8.5/css-doodle.min.js"></script> -->
